@@ -1,0 +1,31 @@
+{
+  "name": "buddha-quote-machine",
+  "version": "1.0.0",
+  "description": "A random Buddha quote generator built with ReactJS",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matty1515/buddha-quote-machine.git"
+  },
+  "keywords": [
+    "reactjs",
+    "buddha",
+    "quotes",
+    "quotemachine"
+  ],
+  "author": "Matty1515",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matty1515/buddha-quote-machine/issues"
+  },
+  "homepage": "https://github.com/Matty1515/buddha-quote-machine#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
