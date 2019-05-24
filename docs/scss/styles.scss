@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Josefin+Sans');
+$font-primary: 'Courgette', cursive;
+$font-secondary: 'Josefin Sans', sans-serif;
+$button-color: #e2e9f3;
+$button-color-hover: #fff;
+$border: 0px dashed black;
+
+body {
+  background-color: #13312f;
+  background-image: url("https://libreshot.com/wp-content/uploads/2016/05/buddha-wallpaper.jpg");
+  background-position: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+#app {
+  display: flex;
+  justify-content: center;
+}
+#quote-box {
+  width: 400px;
+  margin: 50px 20px;
+  padding: 25px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  border: 0px solid $button-color;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  text-align: center;
+}
+.buttons-wrapper {
+  border: $border;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.fab, .fas {
+  margin-right: 10px;
+  color: $button-color;
+  transition: color 0.5s;
+}
+.fab:hover, .fas:hover {
+  color: $button-color-hover;
+  cursor: pointer;
+}
+.text-wrapper {
+  border: $border;
+  height: 220px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+#text {
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-family: $font-primary;
+  color: $button-color-hover;
+}
+#author {
+  border: $border;
+  font-family: $font-secondary;
+  margin: 0;
+  margin-bottom: 10px;
+  color: $button-color;
+}
+#new-quote {
+  border: 0px;
+  border-radius: 5px;
+  font-family: $font-secondary;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding: 3px 6px;
+  background-color: $button-color;
+  color: #13312f;
+  transition: background-color 0.5s;
+}
+#new-quote:hover {
+  background-color: $button-color-hover;
+  cursor: pointer;
+}
