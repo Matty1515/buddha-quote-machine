@@ -1,6 +1,4 @@
 /* jshint esversion: 6 */
-// Finish copy/paste button
-// Add more quotes!
 
 const quotes = [
   {

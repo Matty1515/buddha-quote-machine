@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette|Josefin+Sans");
+body {
+  background-color: #13312f;
+  background-image: url("https://libreshot.com/wp-content/uploads/2016/05/buddha-wallpaper.jpg");
+  background-position: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto 100%; }
+
+#app {
+  display: flex;
+  justify-content: center; }
+
+#quote-box {
+  width: 400px;
+  margin: 50px 20px;
+  padding: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0px solid #e2e9f3;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  text-align: center; }
+
+.buttons-wrapper {
+  border: 0px dashed black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.fab, .fas {
+  margin-right: 10px;
+  color: #e2e9f3;
+  transition: color 0.5s; }
+
+.fab:hover, .fas:hover {
+  color: #fff;
+  cursor: pointer; }
+
+.text-wrapper {
+  border: 0px dashed black;
+  height: 220px;
+  margin: 0;
+  display: flex;
+  align-items: center; }
+
+#text {
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-family: "Courgette", cursive;
+  color: #fff; }
+
+#author {
+  border: 0px dashed black;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #e2e9f3; }
+
+#new-quote {
+  border: 0px;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding: 3px 6px;
+  background-color: #e2e9f3;
+  color: #13312f;
+  transition: background-color 0.5s; }
+
+#new-quote:hover {
+  background-color: #fff;
+  cursor: pointer; }
