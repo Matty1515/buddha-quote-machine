@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/Matty1515/buddha-quote-machine#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
     "gulp": "^4.0.2"
   }
 }
